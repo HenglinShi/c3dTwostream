@@ -1,0 +1,20 @@
+In file included from /home/hshi/local/include/boost/bind/bind.hpp:29:0,
+                 from /home/hshi/local/include/boost/bind.hpp:22,
+                 from /home/hshi/local/include/boost/thread/detail/thread.hpp:29,
+                 from /home/hshi/local/include/boost/thread/thread_only.hpp:22,
+                 from /home/hshi/local/include/boost/thread/thread.hpp:12,
+                 from /home/hshi/local/include/boost/thread.hpp:13,
+                 from src/caffe/common.cpp:1:
+/home/hshi/local/include/boost/bind/arg.hpp: In constructor ‘boost::arg<I>::arg(const T&)’:
+/home/hshi/local/include/boost/bind/arg.hpp:37:22: warning: typedef ‘T_must_be_placeholder’ locally defined but not used [-Wunused-local-typedefs]
+         typedef char T_must_be_placeholder[ I == is_placeholder<T>::value? 1: -1 ];
+                      ^
+In file included from /home/hshi/local/include/boost/tuple/tuple.hpp:33:0,
+                 from /home/hshi/local/include/boost/thread/detail/async_func.hpp:37,
+                 from /home/hshi/local/include/boost/thread/future.hpp:22,
+                 from /home/hshi/local/include/boost/thread.hpp:24,
+                 from src/caffe/common.cpp:1:
+/home/hshi/local/include/boost/tuple/detail/tuple_basic.hpp: In function ‘typename boost::tuples::access_traits<typename boost::tuples::element<N, boost::tuples::cons<HT, TT> >::type>::const_type boost::tuples::get(const boost::tuples::cons<HT, TT>&)’:
+/home/hshi/local/include/boost/tuple/detail/tuple_basic.hpp:228:45: warning: typedef ‘cons_element’ locally defined but not used [-Wunused-local-typedefs]
+   typedef BOOST_DEDUCED_TYPENAME impl::type cons_element;
+                                             ^

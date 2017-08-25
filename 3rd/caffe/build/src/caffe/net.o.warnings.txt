@@ -1,0 +1,22 @@
+In file included from ./include/caffe/common.hpp:6:0,
+                 from src/caffe/net.cpp:10:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/home/hshi/local/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/home/hshi/local/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:41:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+src/caffe/net.cpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::Forward(const std::vector<caffe::Blob<Dtype>*>&, Dtype*)’:
+/home/hshi/local/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/home/hshi/local/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+src/caffe/net.cpp:557:3: note: in expansion of macro ‘LOG_EVERY_N’
+   LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: Forward(bottom, loss) "
+   ^

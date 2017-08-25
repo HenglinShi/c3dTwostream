@@ -1,0 +1,758 @@
+In file included from ./include/caffe/common.hpp:6:0,
+                 from ./include/caffe/blob.hpp:8,
+                 from ./include/caffe/net.hpp:10,
+                 from ./include/caffe/solver.hpp:7,
+                 from ./include/caffe/sgd_solvers.hpp:7,
+                 from src/caffe/solvers/sgd_solver.cpp:4:
+./include/caffe/net.hpp: In member function ‘const std::vector<caffe::Blob<Dtype>*>& caffe::Net<Dtype>::ForwardPrefilled(Dtype*)’:
+/home/hshi/local/include/glog/logging.h:917:30: warning: typedef ‘INVALID_REQUESTED_LOG_SEVERITY’ locally defined but not used [-Wunused-local-typedefs]
+                              INVALID_REQUESTED_LOG_SEVERITY);           \
+                              ^
+/home/hshi/local/include/glog/logging.h:912:73: note: in definition of macro ‘GOOGLE_GLOG_COMPILE_ASSERT’
+   typedef google::glog_internal_namespace_::CompileAssert<(bool(expr))> msg[bool(expr) ? 1 : -1]
+                                                                         ^
+./include/caffe/net.hpp:41:5: note: in expansion of macro ‘LOG_EVERY_N’
+     LOG_EVERY_N(WARNING, 1000) << "DEPRECATED: ForwardPrefilled() "
+     ^
+In file included from /home/hshi/local/include/boost/preprocessor/tuple/elem.hpp:18:0,
+                 from /home/hshi/local/include/boost/preprocessor/array/data.hpp:16,
+                 from /home/hshi/local/include/boost/preprocessor/array/elem.hpp:15,
+                 from /home/hshi/local/include/boost/preprocessor/iteration/iterate.hpp:17,
+                 from /home/hshi/local/include/boost/preprocessor/iterate.hpp:15,
+                 from /home/hshi/local/include/boost/function.hpp:15,
+                 from ./include/caffe/solver.hpp:3,
+                 from ./include/caffe/sgd_solvers.hpp:7,
+                 from src/caffe/solvers/sgd_solver.cpp:4:
+/home/hshi/local/include/boost/concept_check.hpp: In function ‘void boost::function_requires(Model*)’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check45’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:45:7: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+       BOOST_CONCEPT_ASSERT((Model));
+       ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::AdaptableGenerator<Func, Return>::~AdaptableGenerator()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check453’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:453:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<result_type, Return>));
+           ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::AdaptableUnaryFunction<Func, Return, Arg>::~AdaptableUnaryFunction()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check465’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:465:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<result_type, Return>));
+           ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check466’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:466:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<Arg, argument_type>));
+           ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::AdaptableBinaryFunction<Func, Return, First, Second>::~AdaptableBinaryFunction()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check484’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:484:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<result_type, Return>));
+           ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check485’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:485:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<First, first_argument_type>));
+           ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check486’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:486:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<Second, second_argument_type>));
+           ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::InputIterator<TT>::~InputIterator()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check517’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:517:9: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+         BOOST_CONCEPT_ASSERT((SignedInteger<difference_type>));
+         ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check518’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:518:9: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+         BOOST_CONCEPT_ASSERT((Convertible<iterator_category, std::input_iterator_tag>));
+         ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::ForwardIterator<TT>::~ForwardIterator()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check551’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:548:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<
+           ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::BidirectionalIterator<TT>::~BidirectionalIterator()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check579’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:576:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<
+           ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::RandomAccessIterator<TT>::~RandomAccessIterator()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check609’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:606:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Convertible<
+           ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::Container<C>::~Container()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check653’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:653:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((InputIterator<const_iterator>));
+           ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::Mutable_Container<C>::~Mutable_Container()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check681’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:680:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((
+           ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check683’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:683:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((InputIterator<iterator>));
+           ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::ForwardContainer<C>::~ForwardContainer()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check703’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:700:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((
+           ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::Mutable_ForwardContainer<C>::~Mutable_ForwardContainer()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check716’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:713:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((
+           ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::ReversibleContainer<C>::~ReversibleContainer()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check731’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:729:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((
+           ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check733’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:733:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((BidirectionalIterator<const_reverse_iterator>));
+           ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::Mutable_ReversibleContainer<C>::~Mutable_ReversibleContainer()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check755’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:755:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Mutable_BidirectionalIterator<iterator>));
+           ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check756’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:756:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Mutable_BidirectionalIterator<reverse_iterator>));
+           ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::RandomAccessContainer<C>::~RandomAccessContainer()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check776’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:773:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((
+           ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::Mutable_RandomAccessContainer<C>::~Mutable_RandomAccessContainer()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check800’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:800:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Mutable_RandomAccessIterator<typename self::iterator>));
+           ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check801’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:801:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((Mutable_RandomAccessIterator<typename self::reverse_iterator>));
+           ^
+/home/hshi/local/include/boost/concept_check.hpp: In destructor ‘boost::AssociativeContainer<C>::~AssociativeContainer()’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check905’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:905:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((BinaryPredicate<key_compare,key_type,key_type>));
+           ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check908’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/concept_check.hpp:908:11: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+           BOOST_CONCEPT_ASSERT((BinaryPredicate<value_compare,value_type_,value_type_>));
+           ^
+/home/hshi/local/include/boost/range/algorithm/equal.hpp: In function ‘bool boost::range::equal(const SinglePassRange1&, const SinglePassRange2&)’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check172’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/range/concepts.hpp:92:45: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     #define BOOST_RANGE_CONCEPT_ASSERT( x ) BOOST_CONCEPT_ASSERT( x )
+                                             ^
+/home/hshi/local/include/boost/range/algorithm/equal.hpp:172:13: note: in expansion of macro ‘BOOST_RANGE_CONCEPT_ASSERT’
+             BOOST_RANGE_CONCEPT_ASSERT(( SinglePassRangeConcept<const SinglePassRange1> ));
+             ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check173’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/range/concepts.hpp:92:45: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     #define BOOST_RANGE_CONCEPT_ASSERT( x ) BOOST_CONCEPT_ASSERT( x )
+                                             ^
+/home/hshi/local/include/boost/range/algorithm/equal.hpp:173:13: note: in expansion of macro ‘BOOST_RANGE_CONCEPT_ASSERT’
+             BOOST_RANGE_CONCEPT_ASSERT(( SinglePassRangeConcept<const SinglePassRange2> ));
+             ^
+/home/hshi/local/include/boost/range/algorithm/equal.hpp: In function ‘bool boost::range::equal(const SinglePassRange1&, const SinglePassRange2&, BinaryPredicate)’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check185’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/range/concepts.hpp:92:45: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     #define BOOST_RANGE_CONCEPT_ASSERT( x ) BOOST_CONCEPT_ASSERT( x )
+                                             ^
+/home/hshi/local/include/boost/range/algorithm/equal.hpp:185:13: note: in expansion of macro ‘BOOST_RANGE_CONCEPT_ASSERT’
+             BOOST_RANGE_CONCEPT_ASSERT(( SinglePassRangeConcept<const SinglePassRange1> ));
+             ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check186’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/range/concepts.hpp:92:45: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+     #define BOOST_RANGE_CONCEPT_ASSERT( x ) BOOST_CONCEPT_ASSERT( x )
+                                             ^
+/home/hshi/local/include/boost/range/algorithm/equal.hpp:186:13: note: in expansion of macro ‘BOOST_RANGE_CONCEPT_ASSERT’
+             BOOST_RANGE_CONCEPT_ASSERT(( SinglePassRangeConcept<const SinglePassRange2> ));
+             ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp: In function ‘OutputIteratorT boost::algorithm::find_format_copy(OutputIteratorT, const RangeT&, FinderT, FormatterT)’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check69’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp:65:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check74’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp:70:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp: In function ‘SequenceT boost::algorithm::find_format_copy(const SequenceT&, FinderT, FormatterT)’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check103’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp:99:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check108’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp:104:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp: In function ‘void boost::algorithm::find_format(SequenceT&, FinderT, FormatterT)’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check139’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp:135:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check144’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp:140:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT(( 
+             ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp: In function ‘OutputIteratorT boost::algorithm::find_format_all_copy(OutputIteratorT, const RangeT&, FinderT, FormatterT)’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check188’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp:184:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT(( 
+             ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check193’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp:189:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT(( 
+             ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp: In function ‘SequenceT boost::algorithm::find_format_all_copy(const SequenceT&, FinderT, FormatterT)’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check223’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp:219:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check228’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp:224:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp: In function ‘void boost::algorithm::find_format_all(SequenceT&, FinderT, FormatterT)’:
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check261’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp:257:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:20: warning: typedef ‘boost_concept_check266’ locally defined but not used [-Wunused-local-typedefs]
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+                    ^
+/home/hshi/local/include/boost/preprocessor/cat.hpp:29:34: note: in definition of macro ‘BOOST_PP_CAT_I’
+ #    define BOOST_PP_CAT_I(a, b) a ## b
+                                  ^
+/home/hshi/local/include/boost/concept/detail/general.hpp:71:7: note: in expansion of macro ‘BOOST_PP_CAT’
+       BOOST_PP_CAT(boost_concept_check,__LINE__)
+       ^
+/home/hshi/local/include/boost/concept/assert.hpp:44:5: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT_FN’
+     BOOST_CONCEPT_ASSERT_FN(void(*)ModelInParens)
+     ^
+/home/hshi/local/include/boost/algorithm/string/find_format.hpp:262:13: note: in expansion of macro ‘BOOST_CONCEPT_ASSERT’
+             BOOST_CONCEPT_ASSERT((
+             ^
+In file included from /home/hshi/local/include/boost/date_time/period_parser.hpp:15:0,
+                 from /home/hshi/local/include/boost/date_time/date_facet.hpp:23,
+                 from /home/hshi/local/include/boost/date_time/gregorian/gregorian_io.hpp:16,
+                 from /home/hshi/local/include/boost/date_time/gregorian/gregorian.hpp:31,
+                 from /home/hshi/local/include/boost/date_time/posix_time/time_formatters.hpp:12,
+                 from /home/hshi/local/include/boost/date_time/posix_time/posix_time.hpp:24,
+                 from ./include/caffe/util/benchmark.hpp:4,
+                 from ./include/caffe/solver.hpp:9,
+                 from ./include/caffe/sgd_solvers.hpp:7,
+                 from src/caffe/solvers/sgd_solver.cpp:4:
+/home/hshi/local/include/boost/date_time/string_convert.hpp: In function ‘std::basic_string<OutputT> boost::date_time::convert_string_type(const std::basic_string<_CharT>&)’:
+/home/hshi/local/include/boost/date_time/string_convert.hpp:24:39: warning: typedef ‘input_type’ locally defined but not used [-Wunused-local-typedefs]
+     typedef std::basic_string<InputT> input_type;
+                                       ^
+In file included from /home/hshi/local/include/boost/date_time/format_date_parser.hpp:16:0,
+                 from /home/hshi/local/include/boost/date_time/date_generator_parser.hpp:20,
+                 from /home/hshi/local/include/boost/date_time/date_facet.hpp:25,
+                 from /home/hshi/local/include/boost/date_time/gregorian/gregorian_io.hpp:16,
+                 from /home/hshi/local/include/boost/date_time/gregorian/gregorian.hpp:31,
+                 from /home/hshi/local/include/boost/date_time/posix_time/time_formatters.hpp:12,
+                 from /home/hshi/local/include/boost/date_time/posix_time/posix_time.hpp:24,
+                 from ./include/caffe/util/benchmark.hpp:4,
+                 from ./include/caffe/solver.hpp:9,
+                 from ./include/caffe/sgd_solvers.hpp:7,
+                 from src/caffe/solvers/sgd_solver.cpp:4:
+/home/hshi/local/include/boost/date_time/strings_from_facet.hpp: In function ‘std::vector<std::basic_string<_CharT> > boost::date_time::gather_month_strings(const std::locale&, bool)’:
+/home/hshi/local/include/boost/date_time/strings_from_facet.hpp:38:43: warning: typedef ‘ostream_type’ locally defined but not used [-Wunused-local-typedefs]
+   typedef std::basic_ostringstream<charT> ostream_type;
+                                           ^
+/home/hshi/local/include/boost/date_time/strings_from_facet.hpp: In function ‘std::vector<std::basic_string<_CharT> > boost::date_time::gather_weekday_strings(const std::locale&, bool)’:
+/home/hshi/local/include/boost/date_time/strings_from_facet.hpp:89:43: warning: typedef ‘ostream_type’ locally defined but not used [-Wunused-local-typedefs]
+   typedef std::basic_ostringstream<charT> ostream_type;
+                                           ^
+In file included from /home/hshi/local/include/boost/date_time/gregorian/parsers.hpp:13:0,
+                 from /home/hshi/local/include/boost/date_time/gregorian/gregorian.hpp:34,
+                 from /home/hshi/local/include/boost/date_time/posix_time/time_formatters.hpp:12,
+                 from /home/hshi/local/include/boost/date_time/posix_time/posix_time.hpp:24,
+                 from ./include/caffe/util/benchmark.hpp:4,
+                 from ./include/caffe/solver.hpp:9,
+                 from ./include/caffe/sgd_solvers.hpp:7,
+                 from src/caffe/solvers/sgd_solver.cpp:4:
+/home/hshi/local/include/boost/date_time/date_parsing.hpp: In function ‘date_type boost::date_time::parse_date(const string&, int)’:
+/home/hshi/local/include/boost/date_time/date_parsing.hpp:116:45: warning: typedef ‘year_type’ locally defined but not used [-Wunused-local-typedefs]
+       typedef typename date_type::year_type year_type;
+                                             ^
+/home/hshi/local/include/boost/date_time/date_parsing.hpp: In function ‘date_type boost::date_time::parse_undelimited_date(const string&)’:
+/home/hshi/local/include/boost/date_time/date_parsing.hpp:163:45: warning: typedef ‘year_type’ locally defined but not used [-Wunused-local-typedefs]
+       typedef typename date_type::year_type year_type;
+                                             ^
+In file included from /home/hshi/local/include/boost/date_time/posix_time/posix_time.hpp:31:0,
+                 from ./include/caffe/util/benchmark.hpp:4,
+                 from ./include/caffe/solver.hpp:9,
+                 from ./include/caffe/sgd_solvers.hpp:7,
+                 from src/caffe/solvers/sgd_solver.cpp:4:
+/home/hshi/local/include/boost/date_time/posix_time/posix_time_io.hpp: In function ‘std::basic_ostream<_CharT, _Traits>& boost::posix_time::operator<<(std::basic_ostream<_CharT, _Traits>&, const boost::posix_time::ptime&)’:
+/home/hshi/local/include/boost/date_time/posix_time/posix_time_io.hpp:50:51: warning: typedef ‘std_ptime_facet’ locally defined but not used [-Wunused-local-typedefs]
+     typedef std::time_put<CharT>                  std_ptime_facet;
+                                                   ^
+/home/hshi/local/include/boost/date_time/posix_time/posix_time_io.hpp: In function ‘std::basic_ostream<_CharT, _Traits>& boost::posix_time::operator<<(std::basic_ostream<_CharT, _Traits>&, const time_period&)’:
+/home/hshi/local/include/boost/date_time/posix_time/posix_time_io.hpp:117:51: warning: typedef ‘std_time_facet’ locally defined but not used [-Wunused-local-typedefs]
+     typedef std::time_put<CharT>                  std_time_facet;
+                                                   ^
+/home/hshi/local/include/boost/date_time/posix_time/posix_time_io.hpp: In function ‘std::basic_ostream<_CharT, _Traits>& boost::posix_time::operator<<(std::basic_ostream<_CharT, _Traits>&, const boost::posix_time::time_duration&)’:
+/home/hshi/local/include/boost/date_time/posix_time/posix_time_io.hpp:183:51: warning: typedef ‘std_ptime_facet’ locally defined but not used [-Wunused-local-typedefs]
+     typedef std::time_put<CharT>                  std_ptime_facet;
+                                                   ^
