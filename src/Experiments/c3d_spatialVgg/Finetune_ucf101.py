@@ -94,7 +94,7 @@ def main():
 
     solver = None
     solver = caffe.SGDSolver(solverPath)
-    solver.net.copy_from(weightPath)
+    #solver.net.copy_from(weightPath)
     
     
     
